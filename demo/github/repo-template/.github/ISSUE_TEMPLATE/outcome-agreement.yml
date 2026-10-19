@@ -1,0 +1,75 @@
+# Fictional demo: AIPM outcome agreement form (aipm-true-north). All example content is synthetic.
+name: Outcome agreement (True North)
+description: Turn an initiative into a measurable outcome agreement. Stays DRAFT until the sponsor accepts it.
+title: "[Outcome] "
+labels: ["aipm:outcome", "status:proposed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Status: DRAFT (proposed, not agreed).** The sponsor chooses the outcome. Do not invent owners, baselines, or numbers; write BASELINE GAP where none exists.
+  - type: input
+    id: initiative
+    attributes:
+      label: Initiative
+      placeholder: Resolve Faster
+    validations:
+      required: true
+  - type: textarea
+    id: beneficiary
+    attributes:
+      label: Beneficiary and desired change
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Strategic purpose / why now
+  - type: textarea
+    id: chain
+    attributes:
+      label: Outputs → adoption signal → outcome → longer-term value
+  - type: textarea
+    id: measure
+    attributes:
+      label: Measure (definition, denominator, counting rules)
+    validations:
+      required: true
+  - type: textarea
+    id: baseline
+    attributes:
+      label: Baseline (source, date) or BASELINE GAP + proposed collection step
+    validations:
+      required: true
+  - type: input
+    id: target
+    attributes:
+      label: Target and observation window
+    validations:
+      required: true
+  - type: input
+    id: owner
+    attributes:
+      label: Outcome owner (named, or PROPOSED)
+    validations:
+      required: true
+  - type: textarea
+    id: guardrails
+    attributes:
+      label: Quality / harm guardrails
+  - type: textarea
+    id: exclusions
+    attributes:
+      label: Exclusions; work deferred or stopped
+  - type: textarea
+    id: priority-rule
+    attributes:
+      label: Priority rule when goals conflict
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints and commitments to manage explicitly
+  - type: textarea
+    id: open-questions
+    attributes:
+      label: Open questions that could change this agreement (max ~5)

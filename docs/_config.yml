@@ -1,0 +1,26 @@
+title: Adaptive Intelligence for PPM
+description: >-
+  AIPM — an outcome-centered framework for project, program, and portfolio
+  management, with companion AI skills. By Jeff Mitchell Geissler, Scale with Jeff.
+author: Jeff Mitchell Geissler
+url: https://jeffgeissler.github.io
+baseurl: /Adaptive-Intelligence-PPM
+remote_theme: just-the-docs/just-the-docs@v0.10.1
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+search_enabled: true
+heading_anchors: true
+color_scheme: light
+aux_links:
+  "GitHub": "https://github.com/JeffGeissler/Adaptive-Intelligence-PPM"
+  "Substack": "https://scalewithjeff.substack.com"
+  "Medium": "https://medium.com/@ccrhyyww"
+aux_links_new_tab: true
+footer_content: >-
+  © 2026 Jeff Mitchell Geissler · Scale with Jeff ·
+  Licensed <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.
+  AIPM is a working framework; no field validation is claimed yet.
+exclude:
+  - README.md
+permalink: pretty

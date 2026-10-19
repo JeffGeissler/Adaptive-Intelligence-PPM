@@ -1,0 +1,122 @@
+{
+  "_notice": "Fictional demo data: Lumen Ridge Outfitters, its people, and all numbers are synthetic.",
+  "issues": [
+    {
+      "title": "[Outcome] Resolve Faster: outcome agreement (DRAFT)",
+      "body": "> **Fictional demo record.** Lumen Ridge Outfitters, its people, and all numbers are synthetic.\n\n**Status: DRAFT (proposed, not agreed).** Awaiting acceptance by Dana Whitfield (sponsor).\n\n| Field | Draft |\n|---|---|\n| Beneficiary and desired change | Lumen Ridge customers with a support ticket get it resolved faster, without lower quality |\n| Strategic purpose / why now | Retention through the holiday returns season; slow resolution is the top CSAT complaint driver |\n| Outputs → adoption → outcome → value | KB articles, AI triage, order data in tickets → agents and customers use them → lower median resolution time with guardrails held → retention |\n| Measure | Median hours from ticket created to final resolved, all channels, monthly (HelixDesk) |\n| Baseline | 38 h, Q2 2026 HelixDesk export (2026-04-01 to 06-30) |\n| Target and window | 24 h by 2027-03-31 (monthly median, March 2027) |\n| Outcome owner | Dana Whitfield (PROPOSED: not yet confirmed in writing) |\n| Guardrails | CSAT ≥ 4.3/5 (baseline 4.4, Q2 2026); reopen rate ≤ 8% |\n| Reopen baseline | **BASELINE GAP**: tracking began 2026-08-01; Aug–Sep 2026 observed 7.1%. Proposed step: reconstruct Q2 2026 from the HelixDesk event log, or agree Aug–Oct 2026 as the reference period |\n| Exclusions | Ridgebot 2.0 (separate initiative) |\n| Priority rule | Guardrails beat speed: a speed gain that breaches a guardrail does not count |\n| Constraints | Holiday change freeze 2026-11-20 to 2027-01-08; Data Platform capacity (3 FTE) |\n\n**Open questions**\n1. Is the reopen guardrail measured against a reconstructed Q2 baseline or Aug–Oct 2026?\n2. Does the target hold if RF-3 misses the freeze?\n3. Who confirms outcome ownership: Dana Whitfield alone, or with the CFO?\n",
+      "labels": [
+        "aipm:outcome",
+        "status:proposed"
+      ],
+      "milestone": "Steering committee 2026-10-23"
+    },
+    {
+      "title": "[Evidence] RF-3 readiness: conflicting claims before steering",
+      "body": "> **Fictional demo record.** Lumen Ridge Outfitters, its people, and all numbers are synthetic.\n\n**Question:** Is RF-3 ready to deploy on 2026-11-17, before the 2026-11-20 freeze?\n\n| # | Claim | Source + owner | Observed | Type |\n|---|---|---|---|---|\n| 1 | \"Integration testing complete\" | Vendor email, Ravi Shah | 2026-10-14 | Interpretation (vendor certification suite, staging, synthetic data) |\n| 2 | 26 of 40 test cases passed; 11 open; 3 failed (refund-status mapping) | Jira test tracker, Tess Moreno | Export 2026-10-12 | Fact |\n| 3 | RF-3 Green | monday.com status board, Sam Okafor | Last set 2026-10-05 | Interpretation, 14 days old |\n| 4 | Security review for production data requested, not scheduled | Jira, Priya Raman | Requested 2026-09-29 | Fact |\n\n**Conflicts kept visible:** claims 1 and 3 vs claim 2. 6 open cases (TC-35 to TC-40) need production-like data, so they cannot run before the security approval.\n\n**Questions for owners:** Tess: updated test status as of 2026-10-21? Ravi: which suite did \"testing complete\" cover? Priya: date the review will be scheduled?\n",
+      "labels": [
+        "aipm:evidence",
+        "status:proposed"
+      ],
+      "milestone": "Steering committee 2026-10-23"
+    },
+    {
+      "title": "[Decision] RF-3: secure the security review this week or plan for the fallback",
+      "body": "> **Fictional demo record.** Lumen Ridge Outfitters, its people, and all numbers are synthetic.\n\n**Status: PENDING.** Decision owner: Omar Haddad, CIO (PROPOSED: owns security-review prioritization). Needed by: 2026-10-23, because a 10-business-day review must start by Mon 2026-10-26 to finish by 2026-11-06.\n\n| Option | Outcome effect | Cost (basis) | Reversible? | Consequence of waiting |\n|---|---|---|---|---|\n| A. Prioritize the security review now | Keeps 2026-11-17 deploy possible | Security team time (not estimated) | Yes | — |\n| B. Plan for fallback macro through freeze | Order tickets ~6 min slower | ~240 agent h/week × 7 weeks ≈ 1,680 h (est. 2,400 order tickets/week) | Yes, after 2027-01-08 | — |\n| C. Wait for next steering | Option A likely expires | As B | — | Review cannot finish by 2026-11-06 |\n\nRecommendation and economics to be completed with the Decision Brief skill.\n",
+      "labels": [
+        "aipm:decision",
+        "status:proposed"
+      ],
+      "milestone": "Steering committee 2026-10-23"
+    },
+    {
+      "title": "[Decision] Ridgebot 2.0: complete, migrate to SaaS, or stop",
+      "body": "> **Fictional demo record.** Lumen Ridge Outfitters, its people, and all numbers are synthetic.\n\n**Status: PENDING.** Decision owner: Omar Haddad (CIO), with funding authority Lena Brooks (CFO). Needed by: 2026-11-13 (Q1 2027 planning review); SaaS quote expires 2026-11-30.\n\n**Context:** $410K spent (original budget $300K); 5 months late; $220K estimated to complete (medium confidence; last two estimates low by 30–40%). Steering note: \"we've invested too much to walk away.\"\n\n**Options to frame:** (A) complete in-house: $220K + $70K/yr run, 6 Data Platform person-weeks; (B) SaaS (Vendor S): $60K migration + $95K/yr, 3 person-weeks; (C) stop and keep current Ridgebot 1.x; (D) defer to Q2 2027.\n\nSunk cost ($410K) is context only. Full brief to be completed with the Decision Brief skill.\n",
+      "labels": [
+        "aipm:decision",
+        "status:proposed"
+      ],
+      "milestone": "Q1 2027 portfolio decision 2026-11-13"
+    },
+    {
+      "title": "[Dependency] Security-review approval for production order-data access",
+      "body": "> **Fictional demo record.** Lumen Ridge Outfitters, its people, and all numbers are synthetic.\n\n| Field | Value |\n|---|---|\n| Type | Blocker for TC-35–TC-40 and for production deploy; risk to the outcome |\n| Provider → consumer | Security review (approval) → Data Platform (Priya Raman) → HelixDesk vendor → RF-3 |\n| Deliverable | Signed approval for production order-data API access; production credentials issued |\n| Needed by | 2026-11-06 |\n| Readiness evidence | **None.** Requested 2026-09-29; not scheduled as of 2026-10-19 |\n| Response deadline | Review must start by 2026-10-26 (10 business days to 2026-11-06) |\n| Fallback | Manual order-lookup macro: +~6 min per order ticket (~240 agent h/week at est. 2,400 tickets/week) |\n| Owner | Priya Raman (PROPOSED); escalation: Omar Haddad (PROPOSED) |\n| Escalation | Escalate now |\n",
+      "labels": [
+        "aipm:dependency",
+        "status:proposed"
+      ],
+      "milestone": "Security approval needed 2026-11-06"
+    },
+    {
+      "title": "[Dependency] Holiday change freeze 2026-11-20 to 2027-01-08",
+      "body": "> **Fictional demo record.** Lumen Ridge Outfitters, its people, and all numbers are synthetic.\n\n| Field | Value |\n|---|---|\n| Type | Risk (fixed constraint) |\n| Affected | RF-3 deploy (planned 2026-11-17; 3 days of margin); any experiment needing configuration changes |\n| Readiness evidence | RF-3: 14 of 40 test cases not done (2026-10-12 export) |\n| Response deadline | Last deploy day 2026-11-19 |\n| Fallback | Manual order-lookup macro until 2027-01-08 (≈ 7 weeks × 240 agent h ≈ 1,680 h) |\n| Owner | Sam Okafor (PROPOSED) |\n",
+      "labels": [
+        "aipm:dependency",
+        "status:proposed"
+      ],
+      "milestone": "Holiday change freeze 2026-11-20"
+    },
+    {
+      "title": "[Experiment] E-07 Suggested macros (results appended)",
+      "body": "> **Fictional demo record.** Lumen Ridge Outfitters, its people, and all numbers are synthetic.\n\n**Approved 2026-09-04 by Dana Whitfield. Original card (unchanged):**\n\n- Hypothesis: If HelixDesk suggests a ranked macro for each ticket in the pilot queue, median resolution falls to ≤ 30 h because agents spend less time composing replies.\n- Pilot: General Orders B, 20 agents. Comparison: General Orders A, 20 agents. 2026-09-08 to 2026-10-03.\n- Guardrails: reopen ≤ 8%; CSAT ≥ 4.3.\n- Continue if median ≤ 30 h with guardrails held. Pivot if ≥ 2 h better than comparison but > 30 h, guardrails held. Stop if reopen > 8% or CSAT < 4.3 for two consecutive weeks. Inconclusive if < 3,000 tickets or mix shift > 10 points.\n- Pause authority: **not named**.\n\n---\n**Results (appended 2026-10-09):**\n\n| Measure | Pilot before | Pilot during | Comparison before | Comparison during |\n|---|---|---|---|---|\n| Median resolution | 37 h | 33 h | 37 h | 36 h |\n| Reopen rate | 7.0% (273/3,900) | 9.2% (368/4,000) | 7.1% (284/4,000) | 7.3% (292/4,000) |\n| CSAT | 4.4 | 4.3 | 4.4 | 4.4 |\n\nWeekly pilot reopen: 8.1%, 9.0%, 9.8%, 9.9%. Stop criterion met at end of week 2 (2026-09-19); test ran to 2026-10-03. Macros rolled back 2026-10-03.\n",
+      "labels": [
+        "aipm:experiment",
+        "status:approved"
+      ],
+      "milestone": "Steering committee 2026-10-23"
+    },
+    {
+      "title": "[Lesson] E-07: request for applied lesson (author proposes extension)",
+      "body": "> **Fictional demo record.** Lumen Ridge Outfitters, its people, and all numbers are synthetic.\n\nAuthor's proposal (Marco Lindqvist, 2026-10-09): \"extend to 8 weeks and raise the reopen guardrail to 10%.\"\n\nTo complete with the Applied Learning skill before the E-07 review (due 2026-10-28):\n- Verdict against the **original** criteria.\n- Why reopens rose (151 of 368 pilot reopens were refund-status questions).\n- Why the test ran two weeks past its stop point.\n- One proposed change with owner and review date.\n",
+      "labels": [
+        "aipm:lesson",
+        "status:proposed"
+      ],
+      "milestone": "Steering committee 2026-10-23"
+    },
+    {
+      "title": "[Benefits] RF-2 AI triage pilot: benefits review request",
+      "body": "> **Fictional demo record.** Lumen Ridge Outfitters, its people, and all numbers are synthetic.\n\n**Claim (business case, 2026-06-20):** \"120 agent hours saved = $30,000 savings\" at $25/hour loaded cost.\n\n**Pilot facts (2026-07-06 to 2026-09-25):** 4,800 tickets auto-routed; QA review 70 h; 9 misroutes × ~1.5 h rework; tool cost $4,200 for Q3; Q4 staffing budget unchanged.\n\n**Requested:** Benefits & Adoption review before the Q1 2027 scale-up proposal. Benefit owner: Marco Lindqvist (PROPOSED). Finance validation: Elena Park.\n",
+      "labels": [
+        "aipm:benefits",
+        "status:proposed"
+      ],
+      "milestone": "Q1 2027 portfolio decision 2026-11-13"
+    },
+    {
+      "title": "[Benefits] RF-1 Knowledge base: outcome effect unmeasured",
+      "body": "> **Fictional demo record.** Lumen Ridge Outfitters, its people, and all numbers are synthetic.\n\n**Output:** 180 articles rewritten (complete 2026-09-30). **Adoption:** article views +45% (41,000 → 59,450/month).\n**Outcome evidence:** none. No measure links views to deflected tickets or faster resolution.\n\nProposed measure (to agree): monthly ticket volume per 1,000 orders for topics covered by refreshed articles, and median resolution for tickets where the agent linked a refreshed article. Owner: Jordan Avery (PROPOSED).\n",
+      "labels": [
+        "aipm:benefits",
+        "status:proposed"
+      ],
+      "milestone": "Outcome review 2027-03-31"
+    },
+    {
+      "title": "[Evidence] Reopen-rate baseline gap",
+      "body": "> **Fictional demo record.** Lumen Ridge Outfitters, its people, and all numbers are synthetic.\n\nReopen-rate tracking began 2026-08-01. Aug–Sep 2026 observed 7.1%. **No Q2 2026 baseline.** The 8% guardrail therefore has no pre-program reference.\n\nOptions: reconstruct Q2 from the HelixDesk event log (feasibility unknown) or agree Aug–Oct 2026 as the reference period. Owner: Sam Okafor (PROPOSED).\n",
+      "labels": [
+        "aipm:evidence",
+        "status:proposed"
+      ],
+      "milestone": "Steering committee 2026-10-23"
+    },
+    {
+      "title": "[Decision] Q1 2027 portfolio mix under Data Platform constraint",
+      "body": "> **Fictional demo record.** Lumen Ridge Outfitters, its people, and all numbers are synthetic.\n\nDecision owner: Lena Brooks (CFO). Needed by: 2026-11-13.\n\n- Envelope: $1.5M; Data Platform 36 person-weeks (3 FTE × 12 weeks).\n- Demand: 8 candidates, $2.75M, 76 person-weeks (2.1× capacity). P6 PCI DSS is mandatory (deadline 2027-03-31).\n- P1 and P4 both claim the same 25,000 return/refund-status contacts/year.\n- Framing not yet chosen: retention over expansion, or expansion first.\n\nScenarios to be produced with the Portfolio Choices skill (see monday.com portfolio board).\n",
+      "labels": [
+        "aipm:decision",
+        "status:proposed"
+      ],
+      "milestone": "Q1 2027 portfolio decision 2026-11-13"
+    },
+    {
+      "title": "[Experiment] Leader-owned change: open steering with the reddest item (PROPOSED)",
+      "body": "> **Fictional demo record.** Lumen Ridge Outfitters, its people, and all numbers are synthetic.\n\nPrompted by the RF-3 July retro (\"nobody wanted to be the one to call it red\") and the 2026-10-05 all-green deck.\n\nDraft for discussion, owner Dana Whitfield (PROPOSED): for the next three steering meetings, Dana opens by asking for the item with the weakest evidence for its colour, and states one thing she did that made amber harder to report. Each status colour carries one line of evidence and its date.\n\nTo be refined with the Leadership Dialogue and Break the Mold skills; requires group agreement.\n",
+      "labels": [
+        "aipm:experiment",
+        "status:proposed"
+      ],
+      "milestone": "Outcome review 2027-03-31"
+    }
+  ]
+}

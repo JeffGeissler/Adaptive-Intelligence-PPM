@@ -1,0 +1,67 @@
+# Fictional demo: AIPM decision brief form (aipm-decision-brief). All example content is synthetic.
+name: Decision brief
+description: Frame one decision with an owner, a date, options (including waiting), full costs, and reversibility.
+title: "[Decision] "
+labels: ["aipm:decision", "status:proposed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Status: PENDING.** A recommendation is not an approval. Keep the recommendation separate from the evidence. Sunk cost is context, not a reason.
+  - type: input
+    id: question
+    attributes:
+      label: Decision question
+    validations:
+      required: true
+  - type: input
+    id: owner
+    attributes:
+      label: Decision owner (name, or PROPOSED)
+    validations:
+      required: true
+  - type: input
+    id: needed-by
+    attributes:
+      label: Needed by (date) because (expiring option, lead time, funding cycle)
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context (2–3 lines, linked to outcome)
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence (sourced, dated; gaps noted)
+  - type: textarea
+    id: options
+    attributes:
+      label: Options
+      description: Table with Option | Outcome effect | Full cost (basis) | Risks | Reversible? | Consequence of waiting
+      value: |
+        | Option | Outcome effect | Full cost (basis) | Risks | Reversible? | Consequence of waiting |
+        |---|---|---|---|---|---|
+        |  |  |  |  |  |  |
+    validations:
+      required: true
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Recommendation (separate from evidence) and rationale
+  - type: textarea
+    id: assumptions
+    attributes:
+      label: Assumptions; what would change the recommendation
+  - type: dropdown
+    id: authority
+    attributes:
+      label: Delegated or escalated
+      options:
+        - Within delegated authority
+        - Escalated beyond delegated limits
+        - Not yet determined
+  - type: textarea
+    id: follow-through
+    attributes:
+      label: Follow-through (actions, owners, next review date)

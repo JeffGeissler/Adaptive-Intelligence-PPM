@@ -1,0 +1,54 @@
+{
+  "description": "Representative test prompts for the AIPM skills, from the draft's evaluation cases: contradictory reports, missing baselines, scarce shared capacity, sunk-cost pressure, a failed experiment, and claimed savings that are only released time. Prompts only; assertions to be added before any eval run. All scenarios fictional.",
+  "evals": [
+    {
+      "id": 1,
+      "skill": "aipm-true-north",
+      "case": "missing-baseline",
+      "prompt": "Our VP wants us to 'modernize the onboarding portal to improve the customer experience' this half. Budget is two engineers for 12 weeks. We don't track onboarding completion today. Turn this into an outcome agreement.",
+      "expected_output": "Separates output (new portal) from outcome; flags BASELINE GAP and proposes a bounded baseline collection step instead of inventing one; owner marked proposed; draft status; few open questions."
+    },
+    {
+      "id": 2,
+      "skill": "aipm-evidence-brief",
+      "case": "contradictory-reports",
+      "prompt": "Here are three updates for the payments migration. The vendor says integration testing is 'complete'. Our QA lead's tracker export shows 14 of 40 test cases still open as of Oct 12. The PM's status deck from Oct 5 is green. What changed since the last review and which claims conflict?",
+      "expected_output": "Preserves the conflict with sources and dates; classifies green status as interpretation; flags the stale deck; does not declare health; lists questions for evidence owners."
+    },
+    {
+      "id": 3,
+      "skill": "aipm-portfolio-choices",
+      "case": "scarce-shared-capacity",
+      "prompt": "We have 8 candidate initiatives for next quarter and $1.2M. Five of them need our single data-platform team (3 people). Show me feasible options and what changes if retention beats expansion as the priority.",
+      "expected_output": "Identifies the data-platform team as binding constraint despite budget headroom; 2-4 feasible scenarios; weights labeled as human choices; sensitivity to priority change; decisions with owners."
+    },
+    {
+      "id": 4,
+      "skill": "aipm-decision-brief",
+      "case": "sunk-cost-pressure",
+      "prompt": "We've spent $900K on a custom scheduling engine and it's 6 months late. A SaaS alternative costs $150K/year. Leadership says we've invested too much to walk away. Help me frame this for Thursday's steering committee.",
+      "expected_output": "Treats sunk cost as context not reason; options include continue, switch, pause/wait; full costs incl. transition; reversibility; recommendation separate from evidence; named decision owner/date."
+    },
+    {
+      "id": 5,
+      "skill": "aipm-applied-learning",
+      "case": "failed-experiment",
+      "prompt": "We tested replacing the weekly status meeting with an async decision brief for 4 weeks. Target was decisions within 3 days with no increase in missed issues. Median decision time went from 6 to 4 days, but two issues were missed vs zero before. What did we learn?",
+      "expected_output": "Preserves original thresholds; records both targets missed/guardrail breached; avoids forcing a universal lesson; bounds transfer; proposes concrete next test or change with owner and review date."
+    },
+    {
+      "id": 6,
+      "skill": "aipm-benefits-adoption",
+      "case": "released-time-not-savings",
+      "prompt": "The AI summarization pilot saved 200 analyst hours last quarter, so the business case says $30K savings. Reviewers spent extra time checking outputs and we had 3 corrections. Did it pay off?",
+      "expected_output": "Classifies hours as released capacity not cash; includes checking/correction/tool costs; walks deployed→used→outcome→financial chain; flags evidence gaps; recommendation to benefit owner."
+    },
+    {
+      "id": 7,
+      "skill": "aipm-leadership-dialogue",
+      "case": "challenge-without-blame",
+      "prompt": "My team keeps reporting everything as green until it's suddenly red. I want to address it in Monday's retro without blaming anyone. Help me prepare.",
+      "expected_output": "Starts with leader's own possible contribution; system-first interpretations; neutral questions; explicit invitation to challenge; one leader-owned change; no inference about individuals' intent."
+    }
+  ]
+}

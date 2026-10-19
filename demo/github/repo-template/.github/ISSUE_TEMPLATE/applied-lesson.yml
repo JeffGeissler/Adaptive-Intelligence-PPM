@@ -1,0 +1,73 @@
+# Fictional demo: AIPM applied lesson form (aipm-applied-learning). All example content is synthetic.
+name: Applied lesson
+description: Turn a result or retro into a bounded lesson linked to a concrete change, with owner and review date.
+title: "[Lesson] "
+labels: ["aipm:lesson", "status:proposed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Status: PROPOSED** until a named person accepts the change. Keep the original hypothesis and thresholds unchanged; do not force lessons from inconclusive results.
+  - type: input
+    id: source
+    attributes:
+      label: Experiment / increment / retro
+    validations:
+      required: true
+  - type: textarea
+    id: original
+    attributes:
+      label: Original hypothesis and thresholds (unchanged)
+    validations:
+      required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Observed result vs. criteria
+      options:
+        - Continue
+        - Pivot
+        - Stop
+        - Inconclusive
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed result (with sources)
+  - type: textarea
+    id: reasons
+    attributes:
+      label: What changed; plausible reasons; alternative explanations
+  - type: dropdown
+    id: assumption
+    attributes:
+      label: Assumption
+      options:
+        - Retained
+        - Revised
+        - Rejected
+  - type: textarea
+    id: lesson
+    attributes:
+      label: Lesson (in context)
+    validations:
+      required: true
+  - type: textarea
+    id: bounds
+    attributes:
+      label: Applies to / does NOT justify applying to
+  - type: textarea
+    id: prior
+    attributes:
+      label: Prior lessons checked — still valid?
+  - type: textarea
+    id: change
+    attributes:
+      label: "Proposed change: [guidance | acceptance criteria | decision | next test] — owner — review date"
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Limitations and remaining uncertainty

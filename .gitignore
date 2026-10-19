@@ -1,0 +1,11 @@
+.DS_Store
+_site/
+.jekyll-cache/
+.sass-cache/
+vendor/
+.bundle/
+*.local.*
+.env*
+*.db
+*.sqlite*
+*.log

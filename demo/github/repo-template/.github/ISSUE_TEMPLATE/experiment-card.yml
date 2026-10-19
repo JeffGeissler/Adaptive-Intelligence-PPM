@@ -1,0 +1,82 @@
+# Fictional demo: AIPM experiment card form (aipm-break-the-mold). All example content is synthetic.
+name: Experiment card (Break the Mold)
+description: Design the smallest bounded test of one uncomfortable change, with criteria agreed before results.
+title: "[Experiment] "
+labels: ["aipm:experiment", "status:proposed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Status: PROPOSED (not approved).** Do not change thresholds after seeing results, silently extend, or expand scope without a new decision.
+  - type: input
+    id: outcome
+    attributes:
+      label: Outcome served
+    validations:
+      required: true
+  - type: textarea
+    id: assumption
+    attributes:
+      label: Assumption being tested; current evidence
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Hypothesis
+      value: "If we ___ for ___, then ___ because ___. Disconfirming evidence: ___"
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Change (the "uncomfortably different" thing)
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope / exclusions / participants / exposure limit
+  - type: textarea
+    id: comparison
+    attributes:
+      label: Comparison and known confounders
+  - type: textarea
+    id: measures
+    attributes:
+      label: Measures (definition, denominator) — baseline (source) or BASELINE GAP
+  - type: input
+    id: owner
+    attributes:
+      label: "Owner (proposed?) / Approver / Start–end / Review date"
+    validations:
+      required: true
+  - type: input
+    id: caps
+    attributes:
+      label: "Caps: time, cost (incl. checking/correction effort)"
+  - type: textarea
+    id: guardrails
+    attributes:
+      label: Guardrails, immediate pause conditions, and who can pause
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Decision criteria (agreed before results)
+      value: |
+        Continue if:
+        Pivot if:
+        Stop if:
+        Inconclusive →
+    validations:
+      required: true
+  - type: input
+    id: rollback
+    attributes:
+      label: Rollback / recovery owner
+  - type: textarea
+    id: review-questions
+    attributes:
+      label: Pre-agreed review questions
+  - type: textarea
+    id: results
+    attributes:
+      label: Results (append after the review date; do not edit the fields above)

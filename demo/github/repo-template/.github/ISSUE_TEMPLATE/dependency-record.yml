@@ -1,0 +1,77 @@
+# Fictional demo: AIPM dependency/exposure record form (aipm-dependency-readiness). All example content is synthetic.
+name: Dependency record
+description: Record one risk, issue, or blocker with demonstrated readiness, response deadline, fallback, and owner.
+title: "[Dependency] "
+labels: ["aipm:dependency", "status:proposed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A planned date is not readiness evidence. Do not invent likelihood percentages or composite risk scores. Risk acceptance belongs to a named human.
+  - type: input
+    id: exposure
+    attributes:
+      label: Exposure
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Risk (may occur)
+        - Issue (is occurring)
+        - Blocker (preventing progress now)
+    validations:
+      required: true
+  - type: input
+    id: outcome
+    attributes:
+      label: Affected outcome
+  - type: input
+    id: provider-consumer
+    attributes:
+      label: Provider → consumer
+    validations:
+      required: true
+  - type: textarea
+    id: deliverable
+    attributes:
+      label: Required deliverable and acceptance criteria
+  - type: input
+    id: needed-by
+    attributes:
+      label: Needed by
+    validations:
+      required: true
+  - type: textarea
+    id: readiness
+    attributes:
+      label: Readiness evidence (demo, test result, signed acceptance) — or "none"
+    validations:
+      required: true
+  - type: input
+    id: response-deadline
+    attributes:
+      label: Response deadline (when the cheapest option expires)
+  - type: textarea
+    id: fallback
+    attributes:
+      label: Options / fallback (with cost)
+  - type: textarea
+    id: triggers
+    attributes:
+      label: Pre-agreed triggers proposed
+  - type: input
+    id: owner
+    attributes:
+      label: Owner (named, or PROPOSED)
+    validations:
+      required: true
+  - type: dropdown
+    id: escalation
+    attributes:
+      label: Escalation
+      options:
+        - Monitor (within team authority)
+        - Escalate now (beyond delegated limits)
