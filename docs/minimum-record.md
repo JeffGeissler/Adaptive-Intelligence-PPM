@@ -1,6 +1,6 @@
 ---
 title: Minimum record template
-nav_order: 6
+nav_order: 7
 ---
 
 # AIPM reusable minimum record

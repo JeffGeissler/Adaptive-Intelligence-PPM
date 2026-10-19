@@ -7,7 +7,7 @@ description: AIPM Leadership Challenge and Team Dialogue — help a leader exami
 
 **Central question:** What might we be overlooking, and how can we make it easier to surface?
 
-Part of Adaptive Intelligence for Program Management (AIPM), discipline six: *leadership and learning continuity*. In AIPM **the leader goes first**: before asking the team to break the mold, the leader examines their own habits and assumptions. Challenging an established process is then treated as a contribution rather than resistance. The invitation must be genuine, with room for evidence that contradicts the leader's view.
+Part of Adaptive Intelligence for Portfolio, Program, and Project Management (AIPM), discipline six: *leadership and learning continuity*. In AIPM **the leader goes first**: before asking the team to break the mold, the leader examines their own habits and assumptions. Challenging an established process is then treated as a contribution rather than resistance. The invitation must be genuine, with room for evidence that contradicts the leader's view.
 
 ## When to use
 

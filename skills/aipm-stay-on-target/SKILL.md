@@ -7,7 +7,7 @@ description: AIPM Stay on Target — review whether a project's or program's act
 
 **Central question:** Are our decisions, activities, and results actually moving us toward the intended outcome?
 
-Part of Adaptive Intelligence for Program Management (AIPM): *strategic intent* plus *evidence*. Stay on Target is a recurring discipline, not a one-time planning check. It keeps teams from mistaking adherence to a method for achievement of a purpose. The destination stays visible while the route stays adaptable.
+Part of Adaptive Intelligence for Portfolio, Program, and Project Management (AIPM): *strategic intent* plus *evidence*. Stay on Target is a recurring discipline, not a one-time planning check. It keeps teams from mistaking adherence to a method for achievement of a purpose. The destination stays visible while the route stays adaptable.
 
 ## When to use
 

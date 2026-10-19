@@ -7,7 +7,7 @@ description: AIPM True North — turn a strategy, initiative proposal, project c
 
 **Central question:** What are we trying to accomplish, for whom, and why now?
 
-Part of Adaptive Intelligence for Program Management (AIPM), discipline one: *strategic intent and value*. Human judgment establishes purpose and accepts responsibility; this skill helps people state that purpose clearly enough to test progress against it. The outcome agreement it produces is the anchor most other AIPM skills depend on.
+Part of Adaptive Intelligence for Portfolio, Program, and Project Management (AIPM), discipline one: *strategic intent and value*. Human judgment establishes purpose and accepts responsibility; this skill helps people state that purpose clearly enough to test progress against it. The outcome agreement it produces is the anchor most other AIPM skills depend on.
 
 ## When to use
 

@@ -1,17 +1,18 @@
 ---
 title: Home
 nav_order: 1
-description: "AIPM: Adaptive Intelligence for Program Management, an outcome-centered framework and AI skills for project, program, and portfolio management."
+description: "AIPM: an outcome-centered framework and AI skills for portfolio, program, and project management."
 permalink: /
 ---
 
-# Adaptive Intelligence for Program Management
-{: .fs-9 }
+# Adaptive Intelligence for Portfolio, Program, and Project Management
+{: .fs-8 }
 
-An outcome-centered framework for project, program, and portfolio management, with companion AI skills that help leaders examine evidence, challenge assumptions, and adapt.
+An outcome-centered framework for portfolio, program, and project management, with companion AI skills that help leaders examine evidence, challenge assumptions, and adapt.
 {: .fs-6 .fw-300 }
 
-[Explore the skills]({{ "/skills/" | relative_url }}){: .btn .btn-primary .mr-2 }
+[Read the framework]({{ "/framework/" | relative_url }}){: .btn .btn-primary .mr-2 }
+[Explore the skills]({{ "/skills/" | relative_url }}){: .btn .mr-2 }
 [Read the papers]({{ "/papers/" | relative_url }}){: .btn .mr-2 }
 [Try the demo]({{ "/demo/" | relative_url }}){: .btn }
 
@@ -25,6 +26,8 @@ AIPM treats a plan as the current hypothesis about how to achieve an outcome. It
 
 ## Three leadership principles
 
+Read the full [principles note]({{ "/principles/" | relative_url }}).
+
 | Principle | Central question |
 |---|---|
 | **True North** | What are we trying to accomplish? |
@@ -34,6 +37,8 @@ AIPM treats a plan as the current hypothesis about how to achieve an outcome. It
 Cycle: **Purpose → Challenge → Experiment → Learn → Adapt → Reassess alignment.**
 
 ## Six operating disciplines
+
+Detailed in the [AIPM Framework v1.0]({{ "/framework/" | relative_url }}).
 
 These are ongoing capabilities, not sequential gates.
 

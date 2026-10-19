@@ -7,7 +7,7 @@ description: AIPM Applied Learning — turn experiment results, increment review
 
 **Central question:** What did we learn, and where will it change the next decision or practice?
 
-Part of Adaptive Intelligence for Program Management (AIPM), discipline six: *leadership and learning continuity*. A retrospective summary is incomplete until an accepted lesson has a practical application. The aim is learning that changes tomorrow's work, not a lessons archive.
+Part of Adaptive Intelligence for Portfolio, Program, and Project Management (AIPM), discipline six: *leadership and learning continuity*. A retrospective summary is incomplete until an accepted lesson has a practical application. The aim is learning that changes tomorrow's work, not a lessons archive.
 
 ## When to use
 

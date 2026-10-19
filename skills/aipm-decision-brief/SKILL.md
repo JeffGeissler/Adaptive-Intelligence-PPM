@@ -7,7 +7,7 @@ description: AIPM Decision Brief — convert status reports, stalled issues, or 
 
 **Central question:** Who needs to choose what, by when, and with which tradeoffs?
 
-Part of Adaptive Intelligence for Program Management (AIPM), discipline five: *decisions and economic judgment*. Status reports describe; decision briefs enable action. A good brief also lets someone later review whether the reasoning held.
+Part of Adaptive Intelligence for Portfolio, Program, and Project Management (AIPM), discipline five: *decisions and economic judgment*. Status reports describe; decision briefs enable action. A good brief also lets someone later review whether the reasoning held.
 
 ## When to use
 

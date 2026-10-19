@@ -1,6 +1,6 @@
-# Adaptive Intelligence for PPM (AIPM)
+# AIPM: Adaptive Intelligence for Portfolio, Program, and Project Management
 
-An outcome-centered framework for **project, program, and portfolio management**, with companion **AI skills** that help leaders examine evidence, challenge assumptions, and adapt.
+An outcome-centered framework for **portfolio, program, and project management**, with companion **AI skills** that help leaders examine evidence, challenge assumptions, and adapt.
 
 > **Human judgment establishes purpose and accepts responsibility; AI helps people examine evidence, challenge assumptions, and adapt.**
 

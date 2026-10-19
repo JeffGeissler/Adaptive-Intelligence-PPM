@@ -7,7 +7,7 @@ description: AIPM Benefits and Adoption Review — assess whether delivery creat
 
 **Central question:** Did delivery create the intended value, and is that value likely to persist?
 
-Part of Adaptive Intelligence for Program Management (AIPM): *strategic intent* plus *economic judgment*. Claimed benefits often stop at "deployed" or "time saved"; this skill follows the chain all the way to verified value and counts total workflow cost.
+Part of Adaptive Intelligence for Portfolio, Program, and Project Management (AIPM): *strategic intent* plus *economic judgment*. Claimed benefits often stop at "deployed" or "time saved"; this skill follows the chain all the way to verified value and counts total workflow cost.
 
 ## When to use
 

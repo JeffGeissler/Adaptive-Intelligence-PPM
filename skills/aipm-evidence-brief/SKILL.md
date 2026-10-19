@@ -7,7 +7,7 @@ description: AIPM Evidence Brief — synthesize fragmented project, program, or 
 
 **Central question:** What do we know, what changed, and what remains disputed?
 
-Part of Adaptive Intelligence for Program Management (AIPM), discipline two: *evidence and shared understanding*. The aim is that a reviewer can trace and challenge the basis of every material conclusion, rather than receive one reassuring summary.
+Part of Adaptive Intelligence for Portfolio, Program, and Project Management (AIPM), discipline two: *evidence and shared understanding*. The aim is that a reviewer can trace and challenge the basis of every material conclusion, rather than receive one reassuring summary.
 
 ## When to use
 

@@ -7,7 +7,7 @@ description: AIPM Portfolio Choices and Capacity — compare feasible portfolio 
 
 **Central question:** Given our strategy and constraints, what should we start, sequence, defer, or stop?
 
-Part of Adaptive Intelligence for Program Management (AIPM): *strategic intent and value* plus *decisions and economic judgment*, at portfolio level. Human judgment sets strategy and authorizes investment; this skill makes the tradeoffs among feasible mixes visible.
+Part of Adaptive Intelligence for Portfolio, Program, and Project Management (AIPM): *strategic intent and value* plus *decisions and economic judgment*, at portfolio level. Human judgment sets strategy and authorizes investment; this skill makes the tradeoffs among feasible mixes visible.
 
 ## When to use
 

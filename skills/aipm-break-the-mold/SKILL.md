@@ -7,7 +7,7 @@ description: AIPM Break the Mold — identify one consequential assumption or ro
 
 **Central question:** What is one uncomfortable change worth testing in service of our outcome?
 
-Part of Adaptive Intelligence for Program Management (AIPM), discipline four: *adaptive delivery and learning*. *Uncomfortably* is intentional: the change should question a familiar practice, not make a cosmetic adjustment. **Purpose comes first:** question the outcome before challenging the practice. Doing something differently does not automatically mean doing it better, so the experiment is tied to the outcome and judged against evidence. The leader goes first, modeling the challenge before inviting the team.
+Part of Adaptive Intelligence for Portfolio, Program, and Project Management (AIPM), discipline four: *adaptive delivery and learning*. *Uncomfortably* is intentional: the change should question a familiar practice, not make a cosmetic adjustment. **Purpose comes first:** question the outcome before challenging the practice. Doing something differently does not automatically mean doing it better, so the experiment is tied to the outcome and judged against evidence. The leader goes first, modeling the challenge before inviting the team.
 
 ## When to use
 

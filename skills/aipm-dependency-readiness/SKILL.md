@@ -7,7 +7,7 @@ description: AIPM Dependency Readiness and Exposure — assess risks, issues, bl
 
 **Central question:** What could prevent the outcome, and when will our response options narrow?
 
-Part of Adaptive Intelligence for Program Management (AIPM), discipline three: *risk and dependency readiness*. The point is not a longer risk register; it is making sure each material exposure has a response path and a person able to act before options disappear.
+Part of Adaptive Intelligence for Portfolio, Program, and Project Management (AIPM), discipline three: *risk and dependency readiness*. The point is not a longer risk register; it is making sure each material exposure has a response path and a person able to act before options disappear.
 
 ## When to use
 

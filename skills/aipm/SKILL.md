@@ -1,9 +1,9 @@
 ---
 name: aipm
-description: AIPM (Adaptive Intelligence for Program Management) umbrella skill — orients a project, program, or portfolio request to the right AIPM discipline, runs multi-step AIPM cycles (True North → Evidence → Decision; or Purpose → Challenge → Experiment → Learn → Adapt → Reassess), and explains the framework. Use whenever someone mentions AIPM, asks for help running or reviewing a project, program, or portfolio and it's unclear which kind of help they need, wants a full review cycle from one set of documents, asks "where do I start?", or wants to apply the framework end to end.
+description: AIPM (Adaptive Intelligence for Portfolio, Program, and Project Management) umbrella skill — orients a project, program, or portfolio request to the right AIPM discipline, runs multi-step AIPM cycles (True North → Evidence → Decision; or Purpose → Challenge → Experiment → Learn → Adapt → Reassess), and explains the framework. Use whenever someone mentions AIPM, asks for help running or reviewing a project, program, or portfolio and it's unclear which kind of help they need, wants a full review cycle from one set of documents, asks "where do I start?", or wants to apply the framework end to end.
 ---
 
-# AIPM: Adaptive Intelligence for Program Management
+# AIPM: Adaptive Intelligence for Portfolio, Program, and Project Management
 
 > **Human judgment establishes purpose and accepts responsibility; AI helps people examine evidence, challenge assumptions, and adapt.**
 

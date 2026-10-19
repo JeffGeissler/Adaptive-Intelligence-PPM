@@ -4,7 +4,7 @@
 
 This repository holds the **AIPM records** for *Resolve Faster*, a fictional customer-support program at the fictional online outdoor-gear retailer Lumen Ridge Outfitters. It shows how outcome agreements, evidence briefs, decision briefs, experiment cards, dependency records, benefits reviews, and applied lessons can live as GitHub issues on a Project board, next to the tools where delivery data actually sits.
 
-AIPM (Adaptive Intelligence for Program Management) is an outcome-centered approach to project, program, and portfolio management. *Human judgment establishes purpose and accepts responsibility; AI helps people examine evidence, challenge assumptions, and adapt.*
+AIPM (Adaptive Intelligence for Portfolio, Program, and Project Management) is an outcome-centered approach to project, program, and portfolio management. *Human judgment establishes purpose and accepts responsibility; AI helps people examine evidence, challenge assumptions, and adapt.*
 
 ## Where things live in the demo
 
