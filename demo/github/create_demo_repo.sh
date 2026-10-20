@@ -50,7 +50,9 @@ cp -R "$TEMPLATE_DIR/." "$WORK_DIR/repo/"
 git -C "$WORK_DIR/repo" init -q -b main
 git -C "$WORK_DIR/repo" add -A
 GIT_IDENTITY=()
-if [[ -z "$(git config user.email || true)" ]]; then
+# Check the identity git will actually use in the new repo; without one, git
+# falls back to user@hostname, which would publish the local machine name.
+if [[ -z "$(git -C "$WORK_DIR/repo" config user.email || true)" ]]; then
   GIT_IDENTITY=(-c user.name="AIPM demo" -c user.email="aipm-demo@example.invalid")
 fi
 git -C "$WORK_DIR/repo" ${GIT_IDENTITY[@]+"${GIT_IDENTITY[@]}"} commit -q -m "Add fictional AIPM demo records template"
