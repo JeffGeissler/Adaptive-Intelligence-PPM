@@ -6,7 +6,7 @@ Use this script to show each AIPM skill working on the messy records in this fol
 
 **Before you start**
 - Install the skills (see the repository README) so Claude can find `aipm` and the ten `aipm-*` skills.
-- Open three tabs: the monday.com status board (RF-3 **Green, 2026-10-05**), the Jira RF backlog filtered to `labels = test-case`, and the GitHub Project "Resolve Faster – AIPM Records".
+- Open three tabs: the monday.com status board (RF-3 **Green, 2026-10-05**), the Jira backlog (project RF, or whichever project you loaded it into) filtered to `labels = test-case`, and the GitHub Project "Resolve Faster – AIPM Records".
 - Start a fresh conversation for each skill, or the model will reuse earlier conclusions.
 - Have [scenario.md](scenario.md) open for numbers if questions come up.
 

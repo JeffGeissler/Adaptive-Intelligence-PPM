@@ -67,3 +67,11 @@ Test cases are grouped into rows. The totals must reconcile to the 40-case track
 - `project = RF AND labels = blocked`
 - `project = RF AND labels in (risk, issue, dependency) ORDER BY duedate`
 - `project = RF AND labels = test-case AND statusCategory != Done`
+
+## Team-managed projects
+
+New Jira Cloud sites often create *team-managed* projects, which offer only the Epic, Feature, Task, and Subtask issue types and have no Components field. When loading into one:
+
+- Story → **Feature**; Bug → **Task** with the label `bug`.
+- Put Component, Story Points, and Reporter (fictional) in a description footer.
+- Add the labels `aipm-demo` and `resolve-faster-demo` so the demo can be found and reset with `labels = aipm-demo`.
