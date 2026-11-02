@@ -28,6 +28,16 @@ The site uses the Just the Docs remote theme, with no build pipeline to maintain
 
 The demo covers Jira Cloud, monday.com, and GitHub, using fictional data. SharePoint is deferred because it requires a Microsoft 365 Business plan. Documents that would live in SharePoint are provided as Markdown in `demo/documents/`.
 
+## D8: Cross-source advisory portfolio review (2026-11-02)
+
+Use monday.com investment/status records and Jira delivery evidence as the baseline demonstration of cross-source portfolio reasoning. Slack or Teams is optional, bounded coordination evidence. Extend the umbrella, Evidence Brief, and Portfolio Choices skills with record matching, coverage disclosure, conflicting-claim handling, and conditional scenarios. Shared rules remain consistent across all eleven skills. This does not add write-back, messaging, funding authority, or connector implementation; D4 remains in force.
+
+Recognize AIPPM as an alias while preserving existing `aipm-*` names. The October 31 author-supplied essay informs the review but is not republished with private practitioner material. Reported observations are not adopted as independently measured effectiveness. See [review and acceptance map](docs/framework-review-2026-11-02.md).
+
+## D9: Synthetic interactions and comparative evaluation (2026-11-02)
+
+Provide optional Slack/Teams message fixtures and a portfolio interaction script without posting them externally. Retain the original demo's October 19 cutoff. Historical setup verification is not evidence of current connector access. Compare manual preparation, general AI, and skill-guided AI on equivalent evidence and quality criteria; include verification and correction in human effort. Behavioral runs, live integration verification for this revision, and timed efficiency comparisons remain pending. See [evaluation protocol](evals/cross-source-portfolio.md).
+
 ## Open
 
 - Run the `evals/` cases with and without skills, and set pilot acceptance criteria before any field trial.

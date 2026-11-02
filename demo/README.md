@@ -22,6 +22,10 @@ Dana Whitfield (VP Customer Experience) sponsors **Resolve Faster**: cut median 
 
 Full narrative, cast, and timeline: [scenario.md](scenario.md). Speaker script with prompts and expected answers: [walkthrough.md](walkthrough.md).
 
+To plan a tailored session in a new ChatGPT conversation, upload the self-contained [demo planning brief](chatgpt-demo-planning-brief.md).
+
+For the revised multi-source portfolio demo, use [portfolio interactions](portfolio-interactions.md): Monday + Jira as the baseline, optional [Slack/Teams context](collaboration-context.md), explicit funding/capacity tradeoffs, and human decision ownership. These are prepared synthetic simulations; environment setup and measured performance are separate. See the [evaluation protocol](../evals/cross-source-portfolio.md).
+
 ## Tool map
 
 | Tool | Holds | Files |
@@ -47,6 +51,8 @@ demo/
 ```
 
 ## Setup
+
+Existing connected demo: see [verified setup status and live links](setup-status.md). The populated Jira demo uses **KAN-4–KAN-47**, rather than RF keys. Check this status before importing again to avoid duplicates.
 
 You can run the demo with only the files attached to a conversation. The tool setups make it feel real on screen.
 

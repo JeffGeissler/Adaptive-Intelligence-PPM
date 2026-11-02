@@ -11,6 +11,8 @@ description: "A framework for accelerating learning and measurable outcomes."
 
 Jeff Mitchell Geissler | Scale with Jeff | Working version 1.0 | October 16, 2026
 
+November 2 supplement: the [framework and skill revision](../framework-review/) applies the October 31 essay's emphasis on purpose, collective capability, workflow design, and total effort to a cross-source portfolio review. The original framework below retains its version and evidence boundaries; the supplement records proposed behavior and pending evaluation.
+
 ## Executive statement
 
 Adaptive Intelligence for Portfolio, Program, and Project Management (AIPM) is an adaptive portfolio management framework that combines Agile and Lean principles with AI-assisted evidence synthesis, risk insight, and disciplined experimentation. It helps teams connect strategy to measurable outcomes, make cross-functional decisions, and adjust delivery as evidence changes. Leaders establish intent and boundaries; teams act within them; AI assists with information and analysis; people own commitments and consequences.

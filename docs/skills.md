@@ -30,7 +30,15 @@ Each skill is **self-contained**. Install only the one you need, or install all 
 2. Add **Stay on Target → Break the Mold → Applied Learning** for a full adaptive cycle.
 3. Add dependency, benefits, portfolio, and dialogue skills when the work requires them.
 
-## Install
+## Cross-source portfolio reviews
+
+The umbrella skill recognizes **AIPPM** as an alias and supports a bounded review across Monday investment/status records and Jira delivery evidence, with optional Slack or Teams coordination context. It routes to a packaged reference for source coverage, record matching, conflicting claims, and conditional scenarios. Evidence Brief and Portfolio Choices also include standalone cross-source instructions.
+
+Skills do not provide connector implementations or credentials. Use live read-only access when available and authorized, dated exports otherwise. Disclose partial coverage. An unconfirmed staffing suggestion in chat remains an assumption, not available capacity or approval. The reference travels with the umbrella skill folder; when pasting instructions, include that reference for cross-source reviews.
+
+See the [revision review](../framework-review/) and the [synthetic portfolio script](https://github.com/JeffGeissler/Adaptive-Intelligence-PPM/blob/main/demo/portfolio-interactions.md). Efficiency and behavioral acceptance criteria are proposed; no timed improvement is claimed.
+
+## Install and include supporting references
 
 **Claude Code (all projects):**
 
@@ -59,6 +67,7 @@ Every skill:
 5. Identifies the responsible human and the next review point, labeling unconfirmed owners as *proposed*.
 6. Reuses existing records and ceremonies, scaling detail to consequence.
 7. Stays advisory: no external communications, system-of-record changes, funding commitments, or other execution.
+8. Discloses live/export/partial coverage and the as-of date, confirms cross-source record identities, preserves conflicting claims, and uses collaboration messages as evidence rather than authority or individual profiling.
 
 Common response shape: **Outcome → Evidence → Interpretation and uncertainty → Options or recommendation → Owner and next review.**
 

@@ -34,6 +34,8 @@ By **Jeff Mitchell Geissler** · *Scale with Jeff* · [Substack](https://scalewi
 
 Each skill stands alone, so some overlap between them is intentional. Many people will use only one.
 
+For a review across **Monday and Jira**, with optional **Slack or Teams** context, use the `aipm` umbrella skill (also recognizes “AIPPM”). The [cross-source portfolio demo](demo/portfolio-interactions.md) follows evidence through allocation scenarios to a human decision. Skills specify read-only workflows; they do not supply connector access. Copy the complete skill folder to retain supporting references.
+
 **Start with** True North → Evidence Brief → Decision Brief on one existing review, then add Stay on Target → Break the Mold → Applied Learning for a full adaptive cycle.
 
 ## Install
@@ -49,6 +51,8 @@ Alternatively, open the cloned repo in Claude Code to use the skills only there.
 ## Status
 
 AIPM is a working framework (v1.0, October 2026). The skills are proposed specifications: advisory only, with no code, connectors, or execution capabilities. No field validation or effectiveness claims are made yet. Feedback through issues is welcome.
+
+The [November 2 review](docs/framework-review-2026-11-02.md) records how the October 31 essay informs the cross-source skill revision. Synthetic interactions and [comparative evaluation criteria](evals/cross-source-portfolio.md) are prepared; live behavioral and efficiency comparisons remain pending.
 
 ## License
 

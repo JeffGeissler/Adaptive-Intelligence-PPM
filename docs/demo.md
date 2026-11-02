@@ -14,6 +14,7 @@ A fully fictional demo for talks and workshops. **Lumen Ridge Outfitters**, an i
 | **Jira** | Delivery backlog, test tracker, risks, and dependencies |
 | **GitHub** | AIPM records (outcome agreements, decision briefs, experiment cards) as issue forms on a Project board |
 | **Documents** | Status notes, a vendor email, a business case, and experiment results |
+| **Slack or Teams (optional)** | Synthetic thread context for acceptance scope, an unscheduled review, tentative capacity, and benefit overlap; local fixtures, not a provisioned live environment |
 
 The data contains realistic tensions on purpose: contradictory status reports, a missing baseline, a scarce shared team, sunk-cost pressure, a failed experiment, and "savings" that are only released time. Each tension demonstrates one AIPM skill.
 
@@ -24,3 +25,5 @@ Everything you need is in the [`demo/` folder on GitHub](https://github.com/Jeff
 - **`walkthrough.md`**: a 20-minute run of show, plus a prompt for each skill and what a good answer should notice.
 
 All names, organizations, and numbers are synthetic.
+
+For a connected portfolio story, use the [cross-source interaction script](https://github.com/JeffGeissler/Adaptive-Intelligence-PPM/blob/main/demo/portfolio-interactions.md). It includes bounded source access, conditional allocation scenarios, follow-up questions, and source-failure variants. The [evaluation protocol](https://github.com/JeffGeissler/Adaptive-Intelligence-PPM/blob/main/evals/cross-source-portfolio.md) separates prepared demonstrations from measured accuracy, usefulness, and total human effort. No efficiency gain is claimed from the script alone.
