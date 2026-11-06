@@ -36,6 +36,8 @@ Each skill stands alone, so some overlap between them is intentional. Many peopl
 
 For a review across **Monday and Jira**, with optional **Slack or Teams** context, use the `aipm` umbrella skill (also recognizes “AIPPM”). The [cross-source portfolio demo](demo/portfolio-interactions.md) follows evidence through allocation scenarios to a human decision. Skills specify read-only workflows; they do not supply connector access. Copy the complete skill folder to retain supporting references.
 
+For requested **two-or-more-agent reviews**, the umbrella skill adds a [shared-goal coordination protocol](skills/aipm/references/multi-agent-review.md): agents gather source evidence, exchange and challenge findings, then provide risks, issues, blockers, and proposed PM/team actions. See the [multi-agent demo](demo/multi-agent-review.md). Actual delegation depends on the host.
+
 **Start with** True North → Evidence Brief → Decision Brief on one existing review, then add Stay on Target → Break the Mold → Applied Learning for a full adaptive cycle.
 
 ## Install

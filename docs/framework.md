@@ -142,6 +142,8 @@ AI can assist the management of any appropriate program; a program need not deli
 
 Keep the current companion skill advisory. AIPM as a framework can accommodate later authorized automation, but moving from advice to action requires a separate decision about permissions, bounded authority, monitoring, failure response, and recovery. A skill's instructions do not create connector access or execution rights.
 
+When requested, a host may assign two or more agents a shared goal and complementary evidence work. Their exchange should retain primary sources, challenge assumptions, and preserve unresolved disagreement before producing a single PM/team action brief. The coordinator remains responsible for synthesis. Internal agent cooperation does not authorize messages to people, source-system changes, or human commitments; proposed actions still need the appropriate owner. See the [multi-agent protocol](https://github.com/JeffGeissler/Adaptive-Intelligence-PPM/blob/main/skills/aipm/references/multi-agent-review.md).
+
 ## Proportionate application
 
 **Team experiment:** Use an outcome and experiment card, a few evidence references, an owner, and a review date for a small reversible change. No new committee is needed.

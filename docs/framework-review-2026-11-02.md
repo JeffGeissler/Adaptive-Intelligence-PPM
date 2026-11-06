@@ -48,6 +48,10 @@ Acceptance cases, comparison design, and status: [cross-source portfolio evaluat
 
 ## Status
 
+Follow-up: requested collaboration between two or more actual agents is specified in decision D10, with shared goals, cited evidence exchange, challenge/reply, exposure assessment, and proposed PM/team actions. The [multi-agent acceptance map](https://github.com/JeffGeissler/Adaptive-Intelligence-PPM/blob/main/evals/multi-agent-review.md) records MA-01 through MA-09 and distinguishes supplied-file rehearsals from live cooperation and measured efficiency.
+
+A facilitated supplied-file rehearsal on November 2 used two specialist agents and a coordinator, exchanged evidence, and corrected material inferences before consolidating proposed actions. The [rehearsal record](https://github.com/JeffGeissler/Adaptive-Intelligence-PPM/blob/main/demo/multi-agent-rehearsal-2026-11-02.md) preserves the errors and limits; live access, failure variants, and comparative efficiency remain untested.
+
 Documentation and fixtures prepared. Structural checks can establish packaging and consistency; a facilitator's arithmetic check can establish internal consistency. Neither establishes agent behavior. Blind behavioral evaluation, live two-source reads, optional collaboration setup, and timed comparison remain pending. Do not publish improvement percentages or forecasting claims from the prepared examples.
 
 Validation performed on 2026-11-02: the skill-creator `quick_validate.py` passed for all eleven skill folders; shared operating-rule bullets were identical; all eleven discovery symlinks resolved; new-document local links resolved; portfolio totals and four scenario calculations were checked directly against the source CSV; `git diff --check` passed. No live application, source-system write, or independent behavioral evaluation was run. No commit or push was made.

@@ -26,6 +26,10 @@ To plan a tailored session in a new ChatGPT conversation, upload the self-contai
 
 For the revised multi-source portfolio demo, use [portfolio interactions](portfolio-interactions.md): Monday + Jira as the baseline, optional [Slack/Teams context](collaboration-context.md), explicit funding/capacity tradeoffs, and human decision ownership. These are prepared synthetic simulations; environment setup and measured performance are separate. See the [evaluation protocol](../evals/cross-source-portfolio.md).
 
+For collaborating agents, use the [two-agent PM/team action demo](multi-agent-review.md), with a shared goal, source assignments, cited exchanges, peer challenge, and a consolidated action queue.
+
+The [November 2 supplied-file rehearsal](multi-agent-rehearsal-2026-11-02.md) records an actual agent exchange, corrections, and a proposed PM/team action brief. Live source access and efficiency comparisons remain untested for that workflow.
+
 ## Tool map
 
 | Tool | Holds | Files |

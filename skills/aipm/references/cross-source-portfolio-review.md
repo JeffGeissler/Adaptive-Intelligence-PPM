@@ -2,6 +2,8 @@
 
 Use for a portfolio or program question spanning PM tools. The baseline demo uses monday.com for investment and executive records and Jira for delivery evidence. Slack or Teams can supply bounded coordination context. The workflow also works from exports; skill instructions do not supply connectors or credentials.
 
+For requested collaboration between actual agents, also use [goal-led multi-agent review](multi-agent-review.md). It adds shared contracts, evidence packets, peer challenge, and a consolidated PM/team action queue to this source workflow.
+
 ## Establish the review boundary
 
 Identify the desired outcome, pending decision, portfolio period, as-of date, authorized boards/projects/channels, and audience. Ask only for missing scope that would materially change retrieval. Carry existing authorization forward. Distinguish the real retrieval date from a fixed historical demo date; exclude later messages from a historical answer.

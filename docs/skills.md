@@ -6,7 +6,7 @@ permalink: /skills/
 
 # AIPM AI skills
 
-Eleven reusable skills turn AIPM into repeatable AI assistance across project, program, and portfolio management. A *skill* is a packaged set of instructions for a defined task: when to use it, what evidence it needs, how to reason, and what useful result to produce. Skills share the same operating rules; they are not separate autonomous agents.
+Eleven reusable skills turn AIPM into repeatable AI assistance across project, program, and portfolio management. A *skill* is a packaged set of instructions for a defined task: when to use it, what evidence it needs, how to reason, and what useful result to produce. Skills share the same operating rules. A host can assign them to collaborating agents; a skill file itself does not create an agent runtime.
 
 Each skill is **self-contained**. Install only the one you need, or install all of them with the `aipm` umbrella skill, which routes a request to the right one.
 
@@ -38,6 +38,14 @@ Skills do not provide connector implementations or credentials. Use live read-on
 
 See the [revision review](../framework-review/) and the [synthetic portfolio script](https://github.com/JeffGeissler/Adaptive-Intelligence-PPM/blob/main/demo/portfolio-interactions.md). Efficiency and behavioral acceptance criteria are proposed; no timed improvement is claimed.
 
+## Two or more collaborating agents
+
+When requested, the umbrella skill coordinates at least two actual agents around one goal, cutoff, and permitted source scope. An evidence/coordinating agent and a delivery/challenge analyst exchange cited findings, ask targeted questions, preserve corrections and dissent, and consolidate risks, current issues, blockers, and an action queue for the PM/team. Add specialist agents only for a distinct question.
+
+Each proposed action identifies the evidence and exposure, responsible person, due date or trigger and basis, needed authority, state, and closure evidence. Internal agent exchange is allowed within the authorized review context; sending to Slack/Teams users, tracker changes, and funding commitments remain outside the advisory workflow. If the host cannot delegate, disclose the limitation and label any single-agent simulation.
+
+Read the [protocol](https://github.com/JeffGeissler/Adaptive-Intelligence-PPM/blob/main/skills/aipm/references/multi-agent-review.md), [demo](https://github.com/JeffGeissler/Adaptive-Intelligence-PPM/blob/main/demo/multi-agent-review.md), and [acceptance cases](https://github.com/JeffGeissler/Adaptive-Intelligence-PPM/blob/main/evals/multi-agent-review.md). Copy the umbrella folder including references. Live integration and efficiency gains require evaluation.
+
 ## Install and include supporting references
 
 **Claude Code (all projects):**
@@ -68,6 +76,8 @@ Every skill:
 6. Reuses existing records and ceremonies, scaling detail to consequence.
 7. Stays advisory: no external communications, system-of-record changes, funding commitments, or other execution.
 8. Discloses live/export/partial coverage and the as-of date, confirms cross-source record identities, preserves conflicting claims, and uses collaboration messages as evidence rather than authority or individual profiling.
+
+9. Coordinates requested agents through a shared goal and bounded evidence exchange, retaining source citations, corrections, dissent, and proposed PM/team actions. Internal exchange creates no authority for external messages or mutations.
 
 Common response shape: **Outcome → Evidence → Interpretation and uncertainty → Options or recommendation → Owner and next review.**
 

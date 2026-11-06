@@ -27,3 +27,5 @@ Everything you need is in the [`demo/` folder on GitHub](https://github.com/Jeff
 All names, organizations, and numbers are synthetic.
 
 For a connected portfolio story, use the [cross-source interaction script](https://github.com/JeffGeissler/Adaptive-Intelligence-PPM/blob/main/demo/portfolio-interactions.md). It includes bounded source access, conditional allocation scenarios, follow-up questions, and source-failure variants. The [evaluation protocol](https://github.com/JeffGeissler/Adaptive-Intelligence-PPM/blob/main/evals/cross-source-portfolio.md) separates prepared demonstrations from measured accuracy, usefulness, and total human effort. No efficiency gain is claimed from the script alone.
+
+The [two-agent action-brief demo](https://github.com/JeffGeissler/Adaptive-Intelligence-PPM/blob/main/demo/multi-agent-review.md) extends the story to agents exchanging evidence and challenging risks, issues, and blockers before identifying PM/team actions. It includes unavailable-agent and disagreement variants; actual cooperation requires host support.
